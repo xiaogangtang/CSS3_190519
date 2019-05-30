@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.top,
+		.footer {
+			background-color: pink;
+			margin: 0 auto;
+			margin-bottom: 8px;
+			text-align: center;
+		}
+		.banner,
+		.maintop,
+		.maindown {
+			width: 1200px;
+			background-color: pink;
+			margin: 0 auto;
+			margin-bottom: 8px;
+			text-align: center;
+		}
+		.top {
+			height:60px;
+			line-height: 60px;
+		}
+		.banner {
+			height:90px;
+			line-height: 90px;
+		}
+		.maintop {
+			height:160px;
+			background-color: #fff;
+		}
+		.maintop1,
+		.maintop2,
+		.maintop3,
+		.maintop4 {
+			height: 160px;
+			width: 294px;
+			margin-right: 8px;
+			float: left;
+			background-color: pink;
+			line-height: 160px;
+		}
+		.maintop4 {
+			margin-right: 0px;
+		}
+		.maindown {
+			height:290px;
+			background-color: #fff;
+		}
+		.maindown1,
+		.maindown2,
+		.maindown3,
+		.maindown4 {
+			height: 290px;
+			width: 294px;
+			margin-right: 8px;
+			float: left;
+			background-color: pink;
+			line-height: 290px;
+		}
+		.maindown4 {
+			margin-right: 0px;
+		}
+		.footer {
+			height:80px;
+			line-height: 80px;
+		}
+	</style>
+</head>
+<body>
+	<!-- .top+.banner+(.maintop>.maintop1+.maintop2+.miantop3+.maintop4)+(.maindown>.maindown1+.maindown2+.miandown3+.maindown4)+.footer -->
+	<div class="top">top</div>
+	<div class="banner">banner</div>
+	<div class="maintop">
+		<div class="maintop1">maintop1</div>
+		<div class="maintop2">maintop2</div>
+		<div class="maintop3">miantop3</div>
+		<div class="maintop4">maintop4</div>
+	</div>
+	<div class="maindown">
+		<div class="maindown1">maindown1</div>
+		<div class="maindown2">maindown2</div>
+		<div class="maindown3">miandown3</div>
+		<div class="maindown4">maindown4</div>
+	</div>
+	<div class="footer">footer</div>
+</body>
+</html>
